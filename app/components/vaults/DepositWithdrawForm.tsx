@@ -69,7 +69,7 @@ export function DepositWithdrawForm({ onSuccess }: DepositWithdrawFormProps) {
         <div className="flex gap-2 mb-6">
           <Button
             type="button"
-            variant={mode === 'deposit' ? 'default' : 'outline'}
+            variant={mode === 'deposit' ? 'primary' : 'outline'}
             onClick={() => setMode('deposit')}
             className="flex-1"
           >
@@ -78,7 +78,7 @@ export function DepositWithdrawForm({ onSuccess }: DepositWithdrawFormProps) {
           </Button>
           <Button
             type="button"
-            variant={mode === 'withdraw' ? 'default' : 'outline'}
+            variant={mode === 'withdraw' ? 'primary' : 'outline'}
             onClick={() => setMode('withdraw')}
             className="flex-1"
           >
