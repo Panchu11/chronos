@@ -12,10 +12,11 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 glass">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
+            <div className="flex items-center gap-2">
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
                 CHRONOS
               </span>
+              <span className="text-xs text-gray-400 font-normal">by ForgeLabs</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <Link href="/vaults" className="text-gray-300 hover:text-white transition">
@@ -65,11 +66,11 @@ export default function Home() {
                   <ArrowRight className="w-5 h-5" />
                 </button>
               </Link>
-              <Link href="/docs">
+              <a href="https://github.com/Panchu11/chronos#readme" target="_blank" rel="noopener noreferrer">
                 <button className="border border-purple-400 text-purple-400 hover:bg-purple-400/10 px-8 py-4 rounded-lg text-lg font-semibold transition">
                   Learn More
                 </button>
-              </Link>
+              </a>
             </div>
           </motion.div>
         </div>
@@ -144,15 +145,18 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center text-gray-400">
           <p>© 2025 CHRONOS Protocol. Built for Raiku - Inevitable Ideathon.</p>
           <div className="mt-4 flex justify-center gap-6">
-            <a href="https://github.com/Panchu11/chronos" className="hover:text-white transition">
+            <a href="https://github.com/Panchu11/chronos" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               GitHub
             </a>
-            <a href="/docs" className="hover:text-white transition">
+            <a href="https://github.com/Panchu11/chronos/blob/main/docs/TECHNICAL_WHITEPAPER.md" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               Documentation
             </a>
-            <a href="https://earn.superteam.fun/listing/raiku" className="hover:text-white transition">
+            <a href="https://earn.superteam.fun/listing/raiku" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               Hackathon
             </a>
+          </div>
+          <div className="mt-4 text-sm text-gray-500">
+            Lead Developer: <span className="text-purple-400">Panchu</span>
           </div>
         </div>
       </footer>

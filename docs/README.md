@@ -2,6 +2,9 @@
 
 Welcome to the CHRONOS Protocol documentation! This directory contains all technical documentation, guides, and resources.
 
+**Live Demo**: https://chronos-protocol.vercel.app
+**GitHub**: https://github.com/Panchu11/chronos
+
 ---
 
 ## 📄 Available Documentation

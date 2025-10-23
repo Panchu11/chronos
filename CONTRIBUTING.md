@@ -2,6 +2,9 @@
 
 Thank you for your interest in contributing to CHRONOS! We welcome contributions from the community.
 
+**Live Demo**: https://chronos-protocol.vercel.app
+**GitHub**: https://github.com/Panchu11/chronos
+
 ---
 
 ## 📋 Table of Contents

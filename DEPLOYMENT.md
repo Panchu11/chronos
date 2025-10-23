@@ -3,10 +3,18 @@
 ## ✅ Deployment Status
 
 **All 4 programs successfully deployed to Solana Devnet!**
+**Frontend deployed to Vercel!**
 
-**Deployment Date**: October 22, 2025  
-**Cluster**: Solana Devnet (`https://api.devnet.solana.com`)  
-**Total Deployment Cost**: ~1.92 SOL
+**Smart Contracts**:
+- **Deployment Date**: October 22, 2025
+- **Cluster**: Solana Devnet (`https://api.devnet.solana.com`)
+- **Total Deployment Cost**: ~1.92 SOL
+
+**Frontend**:
+- **Live URL**: https://chronos-protocol.vercel.app
+- **Deployment Date**: October 23, 2025
+- **Platform**: Vercel
+- **Status**: ✅ Live
 
 ---
 

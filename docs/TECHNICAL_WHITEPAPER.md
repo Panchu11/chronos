@@ -4,10 +4,12 @@
 
 ---
 
-**Version**: 1.0  
-**Date**: October 2025  
-**Authors**: CHRONOS Protocol Team  
-**Built for**: Raiku Hackathon  
+**Version**: 1.0
+**Date**: October 2025
+**Authors**: CHRONOS Protocol Team
+**Built for**: Raiku Hackathon
+**Live Demo**: https://chronos-protocol.vercel.app
+**GitHub**: https://github.com/Panchu11/chronos
 
 ---
 
