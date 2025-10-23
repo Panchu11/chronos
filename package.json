@@ -1,0 +1,59 @@
+{
+  "name": "chronos-protocol",
+  "version": "1.0.0",
+  "description": "Meta-Protocol for Deterministic DeFi Orchestration on Solana",
+  "main": "index.js",
+  "scripts": {
+    "setup-wallet": "ts-node scripts/setup-wallet.ts",
+    "verify-deployment": "ts-node scripts/verify-deployment.ts",
+    "build": "anchor build",
+    "test": "anchor test",
+    "test:vault": "anchor test --skip-lint tests/chronos-vault.ts",
+    "test:dex": "anchor test --skip-lint tests/chronos-dex.ts",
+    "test:market": "anchor test --skip-lint tests/chronos-market.ts",
+    "test:orchestrator": "anchor test --skip-lint tests/chronos-orchestrator.ts",
+    "deploy": "anchor deploy",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet",
+    "deploy:localnet": "anchor deploy",
+    "clean": "anchor clean",
+    "lint": "eslint . --ext .ts,.tsx && cargo clippy --all-targets -- -D warnings",
+    "format": "prettier --write . && cargo fmt --all"
+  },
+  "keywords": [
+    "solana",
+    "defi",
+    "raiku",
+    "deterministic",
+    "mev",
+    "blockchain"
+  ],
+  "author": "Panchu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Panchu11/chronos.git"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.0",
+    "@types/bn.js": "^5.1.5",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "chai": "^4.4.1",
+    "eslint": "^8.56.0",
+    "mocha": "^10.2.0",
+    "prettier": "^3.2.4",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@types/node": "^20.11.0",
+    "bn.js": "^5.2.1",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
+  }
+}

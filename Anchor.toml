@@ -1,0 +1,33 @@
+[toolchain]
+anchor_version = "0.30.1"
+solana_version = "1.18.22"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+chronos_vault = "EjG3EGtjpC9VtgrzuW6aJ55KcJuWF5buuvhF4S5B7EcP"
+chronos_dex = "FstLfRbswUSasgad1grV8ZY5Bh79CcAUe32vRoqNvJo6"
+chronos_market = "8nAaEjXuKs9NC8MRwiBgyNEiAcY8Ab5YJsAaxnt6JaXJ"
+chronos_orchestrator = "5NyVeVkzxmB2XkrR5EnrEfxNVe82mPWdzSEYH5FBoMgF"
+
+[programs.devnet]
+chronos_vault = "EjG3EGtjpC9VtgrzuW6aJ55KcJuWF5buuvhF4S5B7EcP"
+chronos_dex = "FstLfRbswUSasgad1grV8ZY5Bh79CcAUe32vRoqNvJo6"
+chronos_market = "8nAaEjXuKs9NC8MRwiBgyNEiAcY8Ab5YJsAaxnt6JaXJ"
+chronos_orchestrator = "5NyVeVkzxmB2XkrR5EnrEfxNVe82mPWdzSEYH5FBoMgF"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[test]
+startup_wait = 10000
+
