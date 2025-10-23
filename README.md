@@ -16,7 +16,7 @@ Leveraging [Raiku's](https://raiku.com) groundbreaking slot reservation technolo
 
 🏆 **Built for**: [Raiku - Inevitable Ideathon](https://earn.superteam.fun/listing/raiku)
 
-[📄 Whitepaper](./docs/TECHNICAL_WHITEPAPER.md) • [🚀 Live Demo](#) • [📚 Documentation](./docs/README.md) • [🎬 Video](#)
+[📄 Whitepaper](./docs/TECHNICAL_WHITEPAPER.md) • [🚀 Live Demo](https://chronos-protocol.vercel.app) • [📚 Documentation](./docs/README.md) • [🎬 Video](#)
 
 </div>
 
@@ -26,7 +26,7 @@ Leveraging [Raiku's](https://raiku.com) groundbreaking slot reservation technolo
 
 | Resource | Link | Status |
 |----------|------|--------|
-| 🌐 **Live Demo** | [chronos-protocol.vercel.app](#) | Coming Soon |
+| 🌐 **Live Demo** | [chronos-protocol.vercel.app](https://chronos-protocol.vercel.app) | ✅ Live |
 | 📺 **Demo Video** | [Watch on YouTube](#) | Coming Soon |
 | 📄 **Whitepaper** | [Technical Whitepaper](./docs/TECHNICAL_WHITEPAPER.md) | ✅ Available |
 | 📄 **Whitepaper (HTML)** | [Interactive Version](./docs/CHRONOS_Whitepaper_FULL.html) | ✅ Available |
@@ -718,7 +718,7 @@ Special thanks to all contributors and early testers! 🎉
 
 ### Project Links
 
-- 🌐 **Website**: [chronos-protocol.vercel.app](#) *(Coming Soon)*
+- 🌐 **Website**: [chronos-protocol.vercel.app](https://chronos-protocol.vercel.app)
 - 📦 **GitHub**: [github.com/Panchu11/chronos](https://github.com/Panchu11/chronos)
 - 📄 **Whitepaper**: [Technical Whitepaper](./docs/TECHNICAL_WHITEPAPER.md)
 - 🚀 **Deployment**: [Deployment Info](./DEPLOYMENT.md)
