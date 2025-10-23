@@ -111,9 +111,9 @@ jupyter notebook
 ## 📞 Support
 
 For questions or issues:
-- Open an issue on GitHub
-- Check the main README for contact information
-- Review the technical whitepaper for detailed explanations
+- Open an issue on [GitHub](https://github.com/Panchu11/chronos/issues)
+- Check the main [README](../README.md) for contact information
+- Review the [technical whitepaper](./TECHNICAL_WHITEPAPER.md) for detailed explanations
 
 ---
 

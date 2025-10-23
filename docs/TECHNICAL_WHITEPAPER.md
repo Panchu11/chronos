@@ -1141,7 +1141,7 @@ CHRONOS Protocol is the foundation for this future.
 
 ### B. Code Repository
 
-**GitHub**: [Repository URL]
+**GitHub**: [https://github.com/Panchu11/chronos](https://github.com/Panchu11/chronos)
 **License**: MIT
 **Language**: Rust (Anchor 0.30.1), TypeScript (Next.js 14)
 
